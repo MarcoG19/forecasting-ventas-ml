@@ -68,7 +68,7 @@ st.markdown("""
 def cargar_datos():
     """Carga el dataframe de inferencia y el modelo entrenado"""
     try:
-        df = pd.read_csv('../data/processed/inferencia_df_transformado.csv')
+        df = pd.read_csv('data/processed/inferencia_df_transformado.csv')
         df['fecha'] = pd.to_datetime(df['fecha'])
         return df
     except Exception as e:
@@ -79,7 +79,7 @@ def cargar_datos():
 def cargar_modelo():
     """Carga el modelo entrenado"""
     try:
-        modelo = joblib.load('../models/modelo_final.joblib')
+        modelo = joblib.load('models/modelo_final.joblib')
         return modelo
     except Exception as e:
         st.error(f"❌ Error al cargar el modelo: {e}")
