@@ -13,14 +13,14 @@ Thumbs.db
 .ipynb_checkpoints
 
 # Data
-/data/raw/*
-/data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+#/data/raw/*
+#/data/processed/*
+#!data/raw/.gitkeep
+#!data/processed/.gitkeep
 
 # Models
-/models/*
-!models/.gitkeep
+#/models/*
+#!models/.gitkeep
 
 # Streamlit
 /app/__pycache__/
