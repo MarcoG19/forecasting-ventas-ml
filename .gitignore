@@ -1,0 +1,29 @@
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data
+/data/raw/*
+/data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+/models/*
+!models/.gitkeep
+
+# Streamlit
+/app/__pycache__/
+
+# VSCode
+.vscode/
