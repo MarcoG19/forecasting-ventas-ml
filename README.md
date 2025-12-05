@@ -2,7 +2,9 @@
 
 Aplicación desplegada en Streamlit Cloud →  
 👉 **https://forecasting-ventas-ml-mg1905.streamlit.app**
+
 [![Streamlit App](https://img.shields.io/badge/🚀_Open_App_Streamlit-0bb.svg?style=for-the-badge&logo=streamlit)](https://forecasting-ventas-ml-mg1905.streamlit.app/)
+
 Este proyecto implementa un modelo de Machine Learning para predecir ventas mensuales utilizando técnicas de series temporales, ingeniería de características y un dashboard interactivo hecho en Streamlit.
 
 
