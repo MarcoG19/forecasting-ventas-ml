@@ -1,3 +1,11 @@
+# 📈 Forecasting de Ventas con Machine Learning
+
+Aplicación desplegada en Streamlit Cloud →  
+👉 **https://forecasting-ventas-ml-mg1905.streamlit.app**
+
+Este proyecto implementa un modelo de Machine Learning para predecir ventas mensuales utilizando técnicas de series temporales, ingeniería de características y un dashboard interactivo hecho en Streamlit.
+
+
 # Proyecto de Machine Learning para Forecasting de Ventas
 
 Este proyecto contiene la estructura básica para desarrollar modelos de machine learning enfocados en la predicción de ventas.
